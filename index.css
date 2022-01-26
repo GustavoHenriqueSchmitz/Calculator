@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid black;
+    padding: 1.5%;
+    height: 12vh;
+    min-height: 80px;
+}
+
+header h1 {
+    font-size: 4vmax;
+}
+
+main {
+    display: flex;
+    border: 9px solid black;
+    flex-direction: row;
+    height: 78vh;
+    min-height: 680px;
+}
+
+#opcoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    border: 9px solid #888888;
+    flex: 1;
+}
+
+#tela {
+    border: 9px solid #888888;
+    flex: 1;
+}
+
+#container_operacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    border-bottom: 10px solid #888888;
+}
+
+#container_resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+#container_operacao p {
+    font-size: 4vmax;
+}
+
+#container_resultado p {
+    font-size: 6vmax;
+}
+
+.operadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 5.5vmax;
+    width: 5.5vmax;
+    border-radius: 100%;
+}
+
+.operadores p {
+    color: white;
+    font-size: 2vmax;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 6px solid black;
+    height: 10vh;
+    min-height: 80px;
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 2vmax;
+}
+
+@media (max-height: 1080px) and (max-width: 1080px) {
+    
+    main {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 4vmax;
+    }
+
+    footer p {
+        font-size: 2vmax;
+    }
+
+    .operadores {
+        height: 7vmax;
+        width: 7vmax;
+    }
+
+    .operadores p {
+        font-size: 4vmax;
+    }
+
+}
