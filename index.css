@@ -75,14 +75,10 @@ main {
     align-items: center;
     color: white;
     background-color: black;
-    height: 5.5vmax;
-    width: 5.5vmax;
+    height: 6vmax;
+    width: 6vmax;
+    font-size: 3.5vmax;
     border-radius: 100%;
-}
-
-.operadores p {
-    color: white;
-    font-size: 2vmax;
 }
 
 footer {
@@ -97,7 +93,7 @@ footer {
 
 footer p {
     font-weight: 700;
-    font-size: 2vmax;
+    font-size: 1.8vmax;
 }
 
 @media (max-height: 1080px) and (max-width: 1080px) {

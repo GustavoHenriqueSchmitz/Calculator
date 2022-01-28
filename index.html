@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 
 <body>
@@ -22,82 +23,40 @@
 
         <div id="opcoes">
             
-            <div class="operadores" id="pot">
-                <p>* *</p>
-            </div>
-            
-            <div class="operadores" id="div">
-                <p>/</p>
-            </div>
-            
-            <div class="operadores" id="mul">
-                <p>*</p>
-            </div>
-            
-            <div class="operadores" id="sub">
-                <p>-</p>
-            </div>
-            
-            <div class="operadores" id="sum">
-                <p>+</p>
-            </div>
-            
-            <div class="operadores" id="igu">
-                <p>=</p>
-            </div>
-            
-            <div class="operadores" id="n0">
-                <p>0</p>
-            </div>
-            
-            <div class="operadores" id="n1">
-                <p>1</p>
-            </div>
-            
-            <div class="operadores" id="n2">
-                <p>2</p>
-            </div>
-            
-            <div class="operadores" id="n3">
-                <p>3</p>
-            </div>
-            
-            <div class="operadores" id="n4">
-                <p>4</p>
-            </div>
-            
-            <div class="operadores" id="n5">
-                <p>5</p>
-            </div>
-            
-            <div class="operadores" id="n6">
-                <p>6</p>
-            </div>
-            
-            <div class="operadores" id="n7">
-                <p>7</p>
-            </div>
-            
-            <div class="operadores" id="n8">
-                <p>8</p>
-            </div>
-            
-            <div class="operadores" id="n9">
-                <p>9</p>
-            </div>
+            <button class="operadores" onclick="inserir('**')">**</button>
+            <button class="operadores" onclick="inserir('/')">/</button>
+            <button class="operadores" onclick="inserir('*')">*</button>
+            <button class="operadores" onclick="inserir('-')">-</button>
+            <button class="operadores" onclick="inserir('+')">+</button>
+            <button class="operadores" onclick="inserir('=')">=</button>
+            <button class="operadores" onclick="inserir('0')">0</button>
+            <button class="operadores" onclick="inserir('1')">1</button>
+            <button class="operadores" onclick="inserir('2')">2</button>
+            <button class="operadores" onclick="inserir('3')">3</button>
+            <button class="operadores" onclick="inserir('4')">4</button>
+            <button class="operadores" onclick="inserir('5')">5</button>
+            <button class="operadores" onclick="inserir('6')">6</button>
+            <button class="operadores" onclick="inserir('7')">7</button>
+            <button class="operadores" onclick="inserir('8')">8</button>
+            <button class="operadores" onclick="inserir('9')">9</button>
+            <button class="operadores">+/-</button>
+            <button class="operadores">.</button>
+            <button class="operadores"><i class="fas fa-long-arrow-alt-left" style="font-size: 70%; color: white;"></i></button>
+            <button class="operadores"><i class="fas fa-trash-alt" style="font-size: 70%; color: white;"></i></button>
+
         </div>
 
         <div id="tela">
         
             <div id="container_operacao">
 
-                <p>1</p>
+                <p></p>
             
             </div>
 
             <div id="container_resultado">
                 
-                <p>1</p>
+                <p></p>
             
             </div>
             
