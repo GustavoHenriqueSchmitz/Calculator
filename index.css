@@ -81,6 +81,10 @@ main {
     border-radius: 100%;
 }
 
+.operadores:active {b
+    background-color: red;
+}
+
 footer {
     display: flex;
     align-items: center;
