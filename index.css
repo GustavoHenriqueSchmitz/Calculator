@@ -8,6 +8,7 @@
 
 body {
     display: block;
+    background-color: black;
     min-height: 100vh;
 }
 
@@ -15,19 +16,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 6px solid black;
     padding: 1.5%;
     height: 12vh;
     min-height: 80px;
+    border: 5px solid orange;
 }
 
 header h1 {
     font-size: 4vmax;
+    color: white;
 }
 
 main {
     display: flex;
-    border: 9px solid black;
     flex-direction: row;
     height: 78vh;
     min-height: 680px;
@@ -37,12 +38,12 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
-    border: 9px solid #888888;
     flex: 1;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
 }
 
 #tela {
-    border: 9px solid #888888;
     flex: 1;
 }
 
@@ -51,7 +52,8 @@ main {
     justify-content: center;
     align-items: center;
     height: 25%;
-    border-bottom: 10px solid #888888;
+    border-bottom: 5px solid orange;
+    border-right: 5px solid orange;
 }
 
 #container_resultado {
@@ -59,30 +61,34 @@ main {
     justify-content: center;
     align-items: center;
     height: 75%;
+    border-right: 5px solid orange;
 }
 
 #container_operacao p {
     font-size: 4vmax;
+    color: white;
 }
 
 #container_resultado p {
     font-size: 6vmax;
+    color: white;
 }
 
 .operadores {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     height: 6vmax;
     width: 6vmax;
     font-size: 3.5vmax;
     border-radius: 100%;
+    border: 2px solid orange;
 }
 
 .operadores:active {
-    background-color: red;
+    background-color: orange;
 }
 
 footer {
@@ -90,14 +96,15 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    border: 6px solid black;
     height: 10vh;
     min-height: 80px;
+    border: 5px solid orange;
 }
 
 footer p {
     font-weight: 700;
     font-size: 1.8vmax;
+    color: white;
 }
 
 @media (max-height: 1080px) and (max-width: 1080px) {
