@@ -3,6 +3,9 @@
 ## About the project
 A calculator website made using HTML, CSS, and JavaScript.
 
+## Project Video
+[![Calculator Demo](https://img.youtube.com/vi/2j0CxyMvc6A/0.jpg)](https://www.youtube.com/watch?v=2j0CxyMvc6A)
+
 ## Functionalities
 - Addition
 - Subtraction
